@@ -8,19 +8,19 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button popularMovies,stockHawk,buildItBigger,makeYourAppMaterial,goUbiquitous,capstone;
+    private Button popularMovies,stockHawk,buildItBigger,makeYourAppMaterial,goUbiquitous,capstone;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        popularMovies = (Button) findViewById(R.id.button);
-        stockHawk = (Button) findViewById(R.id.button2);
-        buildItBigger = (Button) findViewById(R.id.button3);
-        makeYourAppMaterial = (Button) findViewById(R.id.button4);
-        goUbiquitous = (Button) findViewById(R.id.button5);
-        capstone = (Button) findViewById(R.id.button6);
+        popularMovies = (Button) findViewById(R.id.popularMovies);
+        stockHawk = (Button) findViewById(R.id.stockHawk);
+        buildItBigger = (Button) findViewById(R.id.buildItBigger);
+        makeYourAppMaterial = (Button) findViewById(R.id.makeYourAppMaterial);
+        goUbiquitous = (Button) findViewById(R.id.goUbiquitous);
+        capstone = (Button) findViewById(R.id.capstone);
 
         popularMovies.setOnClickListener(new View.OnClickListener() {
             @Override
